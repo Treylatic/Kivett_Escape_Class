@@ -2312,3 +2312,16 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.25-02.34.20:691][777]LogModuleManager: Shutting down and abandoning module Engine (16)
 [2019.10.25-02.34.20:691][777]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
 [2019.10.25-02.34.20:691][777]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.25-02.34.20:835][777]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.25-02.34.20:835][777]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.25-02.34.20:853][777]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.25-02.34.20:853][777]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.25-02.34.20:901][777]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.25-02.34.20:998][777]LogD3D11RHI: Shutdown
+[2019.10.25-02.34.20:998][777]LogD3D11RHI: CleanupD3DDevice
+[2019.10.25-02.34.21:062][777]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.25-02.34.21:149][777]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.25-02.34.21:149][777]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.25-02.34.21:411][777]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.25-02.34.21:539][777]LogExit: Exiting.
+[2019.10.25-02.34.21:733][777]Log file closed, 10/24/19 22:34:21
