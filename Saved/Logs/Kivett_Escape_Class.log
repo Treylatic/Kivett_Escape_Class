@@ -1,4 +1,4 @@
-﻿Log file open, 10/25/19 22:28:33
+﻿Log file open, 10/26/19 02:24:02
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Kivett_Escape_Class
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.210431
+LogStats: Stats thread started at 0.096033
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,759 +157,751 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.26-02.28.37:817][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.26-02.28.37:817][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.37:835][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.26-02.28.37:835][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.26-02.28.37:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.37:836][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.37:924][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.26-02.28.37:924][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.26-02.28.37:925][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.26-02.28.37:955][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.26-02.28.37:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.26-02.28.38:021][  0]LogHAL: Display: Platform has ~ 8 GB [8538705920 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.26-02.28.38:021][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.26-02.28.38:022][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.26-02.28.38:022][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.26-02.28.38:023][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.26-02.28.38:075][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.26-02.28.38:075][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.26-02.28.38:075][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
-[2019.10.26-02.28.38:135][  0]LogInit: Computer: DESKTOP-NR30UB4
-[2019.10.26-02.28.38:135][  0]LogInit: User: recon
-[2019.10.26-02.28.38:135][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.10.26-02.28.38:135][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.26-02.28.38:136][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2019.10.26-02.28.38:136][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.26-02.28.38:136][  0]LogMemory: Process Physical Memory: 103.09 MB used, 103.10 MB peak
-[2019.10.26-02.28.38:136][  0]LogMemory: Process Virtual Memory: 100.78 MB used, 100.78 MB peak
-[2019.10.26-02.28.38:136][  0]LogMemory: Physical Memory: 5499.30 MB used,  2643.85 MB free, 8143.14 MB total
-[2019.10.26-02.28.38:136][  0]LogMemory: Virtual Memory: 4701.62 MB used,  134213024.00 MB free, 134217728.00 MB total
-[2019.10.26-02.28.38:195][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.26-02.28.39:047][  0]LogInit: Using OS detected language (en-US).
-[2019.10.26-02.28.39:047][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.26-02.28.39:048][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.26-02.28.39:970][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.26-02.28.40:874][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.26-02.28.40:874][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.26-02.28.45:830][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.26-02.28.45:830][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.26-02.28.45:957][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 470 Graphics' (Feature Level 11_0)
-[2019.10.26-02.28.45:957][  0]LogD3D11RHI:       4043/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.10.26-02.28.45:960][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.26-02.28.45:960][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.26-02.28.45:960][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.26-02.28.46:003][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.26-02.28.46:003][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2019.10.26-02.28.46:003][  0]LogWindows: EnumDisplayDevices:
-[2019.10.26-02.28.46:003][  0]LogWindows:    0. 'Radeon (TM) RX 470 Graphics' (P:1 D:1)
-[2019.10.26-02.28.46:004][  0]LogWindows:    1. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
-[2019.10.26-02.28.46:004][  0]LogWindows:    2. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
-[2019.10.26-02.28.46:004][  0]LogWindows:    3. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
-[2019.10.26-02.28.46:005][  0]LogWindows:    4. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
-[2019.10.26-02.28.46:005][  0]LogWindows:    5. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
-[2019.10.26-02.28.46:005][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2019.10.26-02.28.46:005][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 470 Graphics
-[2019.10.26-02.28.46:005][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:22.19.677.257, unified:22.19.677.257)
-[2019.10.26-02.28.46:005][  0]LogD3D11RHI:      Driver Date: 9-22-2017
-[2019.10.26-02.28.46:006][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.10.26-02.28.46:111][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.26-02.28.46:471][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.10.26-02.28.48:286][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.26-02.28.48:345][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.26-02.28.48:377][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.26-02.28.48:402][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.26-02.28.48:452][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.26-02.28.48:504][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.26-02.28.48:518][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.26-02.28.48:578][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.26-02.28.48:602][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.26-02.28.48:728][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.26-02.28.48:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.26-02.28.48:746][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.26-02.28.48:869][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.26-02.28.48:869][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.26-02.28.48:906][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.26-02.28.48:906][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.26-02.28.48:960][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.26-02.28.48:974][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.26-02.28.48:999][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.26-02.28.49:066][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.26-02.28.49:119][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.26-02.28.49:119][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.26-02.28.49:119][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.26-02.28.49:251][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.26-02.28.50:117][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Intermediate/Shaders/WorkingDirectory/11052/).
-[2019.10.26-02.28.50:118][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/recon/AppData/Local/Temp/UnrealShaderWorkingDir/419CDFFA4EDB72E5D4CDD290085F0596/'.
-[2019.10.26-02.28.50:185][  0]LogXGEController: Cleaning working directory: C:/Users/recon/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.10.26-02.28.50:186][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.26-02.28.50:186][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.26-02.28.50:186][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.26-02.28.54:045][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.26-02.28.54:965][  0]LogDerivedDataCache: Loaded boot cache 0.89s 73MB C:/Users/recon/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.26-02.28.54:965][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/recon/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.26-02.28.54:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.26-02.28.54:966][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.26-02.28.54:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.26-02.28.54:966][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.26-02.28.55:108][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.26-02.28.55:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.26-02.28.55:108][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.26-02.28.55:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/recon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.26-02.28.55:110][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.26-02.28.55:110][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.26-02.28.55:218][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.26-02.28.55:362][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.26-02.28.55:467][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.26-02.28.57:439][  0]LogAssetRegistry: FAssetRegistry took 0.0073 seconds to start up
-[2019.10.26-02.29.01:250][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.26-02.29.03:203][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.26-02.29.03:203][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.26-02.29.03:203][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.26-02.29.03:203][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.26-02.29.03:204][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.26-02.29.03:940][  0]LogNetVersion: Kivett_Escape_Class 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4099637301)
-[2019.10.26-02.29.11:212][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.099468 seconds
-[2019.10.26-02.29.11:226][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.26-02.29.11:226][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.26-02.29.11:226][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.26-02.29.41:640][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.26-02.29.41:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.26-02.29.42:576][  0]SourceControl: Source control is disabled
-[2019.10.26-02.29.42:627][  0]SourceControl: Source control is disabled
-[2019.10.26-02.29.42:865][  0]SourceControl: Source control is disabled
-[2019.10.26-02.29.43:026][  0]SourceControl: Source control is disabled
-[2019.10.26-02.29.43:216][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.26-02.29.43:218][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.26-02.29.45:963][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.26-02.29.47:106][  0]LogOcInput: OculusInput pre-init called
-[2019.10.26-02.29.47:164][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.26-02.29.47:164][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.26-02.29.48:841][  0]LogEngine: Initializing Engine...
-[2019.10.26-02.29.48:930][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.26-02.29.48:989][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.028 s
-[2019.10.26-02.29.50:472][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.26-02.29.51:061][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.26-02.29.51:471][  0]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-02.29.51:722][  0]LogInit: FAudioDevice initialized.
-[2019.10.26-02.29.51:722][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.26-02.29.51:924][  0]LogDerivedDataCache: Saved boot cache 0.20s 73MB C:/Users/recon/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.26-02.29.51:941][  0]LogInit: Texture streaming: Enabled
-[2019.10.26-02.29.52:138][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.26-02.29.52:138][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.10.26-02.29.52:181][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.10.26-02.29.52:712][  0]LogInit: Transaction tracking system initialized
-[2019.10.26-02.29.53:660][  0]BlueprintLog: New page: Editor Load
-[2019.10.26-02.29.55:447][  0]LocalizationService: Localization service is disabled
-[2019.10.26-02.29.56:714][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.26-02.29.56:715][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.26-02.29.59:404][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/' took 0.03s
-[2019.10.26-02.29.59:404][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.26-02.29.59:404][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.26-02.30.04:030][  0]SourceControl: Source control is disabled
-[2019.10.26-02.30.04:105][  0]Cmd: MAP LOAD FILE="../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.26-02.30.04:140][  0]LightingResults: New page: Lighting Build
-[2019.10.26-02.30.04:271][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-02.30.04:535][  0]MapCheck: New page: Map Check
-[2019.10.26-02.30.04:535][  0]LightingResults: New page: Lighting Build
-[2019.10.26-02.30.04:946][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
-[2019.10.26-02.30.11:120][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-02.30.12:050][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.26-02.30.12:307][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
-[2019.10.26-02.30.12:307][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.26-02.30.12:308][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.551ms to complete.
-[2019.10.26-02.30.12:308][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.235
-[2019.10.26-02.30.14:440][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.30.14:451][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.30.14:460][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.30.14:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.30.14:779][  0]LogCollectionManager: Loaded 0 collections in 0.002904 seconds
-[2019.10.26-02.30.15:152][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Collections/' took 0.00s
-[2019.10.26-02.30.15:152][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/Developers/recon/Collections/' took 0.00s
-[2019.10.26-02.30.15:152][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/Collections/' took 0.00s
-[2019.10.26-02.30.15:152][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.10.26-02.30.15:165][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2863 classes and 680 folders.
-[2019.10.26-02.30.15:306][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.26-02.30.16:453][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.26-02.30.16:534][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.10.26-02.30.17:289][  0]LogSlate: Took 0.049734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.26-02.30.17:467][  0]LogSlate: Took 0.153884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.26-02.30.17:586][  0]LogSlate: Took 0.049121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.26-02.30.18:106][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.10.26-02.30.18:836][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.26-02.30.18:836][  0]LogLoad: (Engine Initialization) Total time: 120.29 seconds
-[2019.10.26-02.30.18:836][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.26-02.30.19:231][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.26-02.30.19:646][  0]LogSlate: Took 0.061101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.26-02.30.23:341][ 40]LogAssetRegistry: Asset discovery search completed in 85.9024 seconds
-[2019.10.26-02.30.23:345][ 40]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2019.10.26-02.30.23:345][ 40]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
-[2019.10.26-02.31.19:132][207]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={D54F5182-4665-6B98-B96D-55B1C877EB7A}
-[2019.10.26-02.37.46:299][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-02.42.05:702][371]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-02.42.05:813][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.42.05:888][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-02.42.06:084][371]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 6:42:05 PM)
-[2019.10.26-02.42.06:170][371]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.10.26-02.42.06:235][371]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-02.42.07:008][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.772752s)
-[2019.10.26-02.42.07:036][371]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-02.42.07:046][371]LogPlayLevel: PIE: World Init took: (0.038091s)
-[2019.10.26-02.42.07:059][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.824599s)
-[2019.10.26-02.42.07:183][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
-[2019.10.26-02.42.07:339][371]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-02.42.07:352][371]LogInit: FAudioDevice initialized.
-[2019.10.26-02.42.07:521][371]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-02.42.07:783][371]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-22.42.07
-[2019.10.26-02.42.07:889][371]LogWorld: Bringing up level for play took: 0.141355
-[2019.10.26-02.42.07:908][371]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2019.10.26-02.42.08:089][371]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.10.26-02.42.08:101][371]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.383
-[2019.10.26-02.42.08:101][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.42.25:799][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.42.25:951][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.42.25:951][393]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-02.42.25:983][393]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-02.42.26:153][393]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-02.42.26:153][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.42.26:497][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.42.26:698][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
-[2019.10.26-02.42.26:787][394]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.10.26-02.44.00:503][167]LogSlate: Took 0.012110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.26-02.46.46:517][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-02.46.46:826][665]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-02.46.46:862][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.46.46:862][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-02.46.46:863][665]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 6:46:46 PM)
-[2019.10.26-02.46.46:863][665]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-02.46.47:016][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153496s)
-[2019.10.26-02.46.47:017][665]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-02.46.47:025][665]LogPlayLevel: PIE: World Init took: (0.008326s)
-[2019.10.26-02.46.47:025][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.162086s)
-[2019.10.26-02.46.47:069][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
-[2019.10.26-02.46.47:092][665]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-02.46.47:114][665]LogInit: FAudioDevice initialized.
-[2019.10.26-02.46.47:184][665]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-02.46.47:191][665]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-22.46.47
-[2019.10.26-02.46.47:191][665]LogWorld: Bringing up level for play took: 0.006883
-[2019.10.26-02.46.47:191][665]LogOnline: OSS: Creating online subsystem instance for: :Context_4
-[2019.10.26-02.46.47:194][665]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.523
-[2019.10.26-02.46.47:194][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.47.00:661][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.47.00:662][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.47.00:662][271]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-02.47.00:662][271]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-02.47.00:674][271]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-02.47.00:675][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-02.47.00:724][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-02.47.00:729][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
-[2019.10.26-02.47.00:814][272]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.10.26-02.48.46:975][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.34.31:730][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.39.57:776][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.39.57:887][807]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
-[2019.10.26-03.40.07:562][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.40.07:867][912]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/BP_Door.BP_Door
-[2019.10.26-03.40.10:624][912]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0584 seconds. Added 121 classes and 0 folders.
-[2019.10.26-03.40.16:187][912]LogSlate: Took 0.026763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.10.26-03.40.17:259][913]LogSlate: Took 0.079815 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.26-03.40.43:892][288]LogSlate: Window 'BP_Door' being destroyed
-[2019.10.26-03.40.43:898][288]LogSlate: Window 'BP_Door' being destroyed
-[2019.10.26-03.40.43:909][288]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.40.45:161][386]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
-[2019.10.26-03.41.14:475][773]LogSlate: Window 'FirstPersonCharacter' being destroyed
-[2019.10.26-03.41.14:481][773]LogSlate: Window 'FirstPersonCharacter' being destroyed
-[2019.10.26-03.41.14:481][773]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.43.19:657][952]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\recon\Documents\Bandicam\EscapeProject\EditedDoor.wav)
-[2019.10.26-03.43.33:403][659]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\recon\Documents\Bandicam\EscapeProject\EditedFootsteps.wav)
-[2019.10.26-03.43.45:586][218]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\recon\Documents\Bandicam\EscapeProject\Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.wav)
-[2019.10.26-03.43.57:999][ 12]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\recon\Documents\Bandicam\EscapeProject\MyIntroduction.wav)
-[2019.10.26-03.43.58:056][ 12]Error: Unable to read wave file 'MyIntroduction' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
-[2019.10.26-03.44.09:999][ 54]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave MyIntroduction...
-[2019.10.26-03.44.11:498][ 54]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 13161204 while cooking SoundWave /Game/MyAudio/MyIntroduction.MyIntroduction.
-[2019.10.26-03.44.26:652][859]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/EditedDoor.EditedDoor
-[2019.10.26-03.44.30:740][286]LogSlate: Window 'EditedDoor' being destroyed
-[2019.10.26-03.44.30:745][286]LogSlate: Window 'EditedDoor' being destroyed
-[2019.10.26-03.44.56:493][344]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.44.56:878][345]LogUObjectHash: Compacting FUObjectHashTables data took  33.72ms
-[2019.10.26-03.44.56:878][345]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.219
-[2019.10.26-03.44.56:879][345]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAudio/EditedDoor] ([1] browsable assets)...
-[2019.10.26-03.44.56:919][345]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/MyAudio/EditedDoor.EditedDoor]
-[2019.10.26-03.44.56:919][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAudio/EditedDoor]
-[2019.10.26-03.44.57:035][345]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/EditedDoor_Auto14DDC6A3E49C689367A005299CEC11018.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Autosaves/Game/MyAudio/EditedDoor_Auto1.uasset'
-[2019.10.26-03.44.57:036][345]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAudio/EditedFootsteps] ([1] browsable assets)...
-[2019.10.26-03.44.57:040][345]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/MyAudio/EditedFootsteps.EditedFootsteps]
-[2019.10.26-03.44.57:041][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAudio/EditedFootsteps]
-[2019.10.26-03.44.57:051][345]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/EditedFootsteps_Auto1F96386774677B8C91F1C7A9198587FE2.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Autosaves/Game/MyAudio/EditedFootsteps_Auto1.uasset'
-[2019.10.26-03.44.57:053][345]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981] ([1] browsable assets)...
-[2019.10.26-03.44.57:062][345]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981]
-[2019.10.26-03.44.57:063][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981]
-[2019.10.26-03.44.57:081][345]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Lobo_Loco_-_03_-_Streetlife_-_SiED96C70541BE248A728A5DB7E256DD05.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Autosaves/Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981_Auto1.uasset'
-[2019.10.26-03.44.57:083][345]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAudio/MyIntroduction] ([1] browsable assets)...
-[2019.10.26-03.44.57:095][345]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/MyAudio/MyIntroduction.MyIntroduction]
-[2019.10.26-03.44.57:095][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAudio/MyIntroduction]
-[2019.10.26-03.44.57:171][345]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/MyIntroduction_Auto142A14D6B4AEAAE7F3A29EFA51C7E4309.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Autosaves/Game/MyAudio/MyIntroduction_Auto1.uasset'
-[2019.10.26-03.44.57:172][345]LogFileHelpers: Auto-saving content packages took 0.294
-[2019.10.26-03.45.00:719][736]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.45.00:723][736]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.46.02:742][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.46.02:865][  1]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.46.02:886][  1]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.46.02:886][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.46.02:886][  1]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:46:02 PM)
-[2019.10.26-03.46.02:886][  1]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.46.03:045][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158643s)
-[2019.10.26-03.46.03:046][  1]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.46.03:047][  1]LogPlayLevel: PIE: World Init took: (0.001516s)
-[2019.10.26-03.46.03:047][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.160395s)
-[2019.10.26-03.46.03:157][  1]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
-[2019.10.26-03.46.03:179][  1]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.46.03:233][  1]LogInit: FAudioDevice initialized.
-[2019.10.26-03.46.03:250][  1]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.46.03:259][  1]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.46.03
-[2019.10.26-03.46.03:260][  1]LogWorld: Bringing up level for play took: 0.008991
-[2019.10.26-03.46.03:260][  1]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2019.10.26-03.46.03:264][  1]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.454
-[2019.10.26-03.46.03:264][  1]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.46.03:328][  1]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981...
-[2019.10.26-03.46.04:138][  1]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 8574456 while cooking SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.
-[2019.10.26-03.46.53:936][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.46.53:937][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.46.53:937][962]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.46.53:937][962]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.46.53:951][962]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.46.53:951][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.46.54:009][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.46.54:016][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
-[2019.10.26-03.46.54:038][963]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.10.26-03.47.02:325][895]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981)
-[2019.10.26-03.47.03:599][ 19]Cmd: DELETE
-[2019.10.26-03.47.03:599][ 19]Cmd: ACTOR DELETE
-[2019.10.26-03.47.03:868][ 19]LogEditorActor: Deleted Actor: AmbientSound
-[2019.10.26-03.47.03:915][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
-[2019.10.26-03.47.03:916][ 19]LogEditorActor: Deleted 1 Actors (0.210 secs)
-[2019.10.26-03.47.08:505][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.47.08:669][560]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.47.13:507][117]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.47.13:512][117]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.47.19:296][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.47.19:388][709]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.47.19:410][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.47.19:410][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.47.19:410][709]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:47:19 PM)
-[2019.10.26-03.47.19:410][709]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.47.19:566][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155751s)
-[2019.10.26-03.47.19:599][709]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.47.19:599][709]LogPlayLevel: PIE: World Init took: (0.033103s)
-[2019.10.26-03.47.19:599][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.189068s)
-[2019.10.26-03.47.19:642][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
-[2019.10.26-03.47.19:658][709]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.47.19:670][709]LogInit: FAudioDevice initialized.
-[2019.10.26-03.47.19:679][709]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.47.19:686][709]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.47.19
-[2019.10.26-03.47.19:687][709]LogWorld: Bringing up level for play took: 0.007381
-[2019.10.26-03.47.19:687][709]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2019.10.26-03.47.19:690][709]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.028
-[2019.10.26-03.47.19:690][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.48.58:322][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.48.58:323][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.48.58:323][516]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.48.58:323][516]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.48.58:336][516]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.48.58:336][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.48.58:390][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.48.58:396][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
-[2019.10.26-03.48.58:402][516]LogActorComponent: ReregisterComponent: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_2.AudioComponent0) Not currently registered. Aborting.
-[2019.10.26-03.48.58:432][518]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.10.26-03.49.00:258][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.49.00:329][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
-[2019.10.26-03.49.01:264][740]LogSlate: Window 'Save Content' being destroyed
-[2019.10.26-03.49.01:474][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
-[2019.10.26-03.49.04:539][740]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/FirstPersonExampleMapC790099F4E4770E2D2397E9B51110026.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.10.26-03.49.04:605][740]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 3.249
-[2019.10.26-03.49.04:611][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAudio/EditedDoor" FILE="../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/EditedDoor.uasset" SILENT=true
-[2019.10.26-03.49.04:619][740]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/EditedDoorBA0C13C945FABA555C40A0BC6BC829C7.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/EditedDoor.uasset'
-[2019.10.26-03.49.04:721][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAudio/EditedFootsteps" FILE="../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/EditedFootsteps.uasset" SILENT=true
-[2019.10.26-03.49.04:731][740]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/EditedFootsteps9EB9CADC4DE6F4F3879BB29CC2D7FAD2.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/EditedFootsteps.uasset'
-[2019.10.26-03.49.04:782][740]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Lobo_Loco_-_03_-_Streetlife_-_SiD2ACF9C84D995A6017BCFE926423C70C.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.uasset'
-[2019.10.26-03.49.04:793][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAudio/MyIntroduction" FILE="../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/MyIntroduction.uasset" SILENT=true
-[2019.10.26-03.49.04:810][740]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/MyIntroduction0076AE5D4AA4F51F93002288470459B1.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/MyIntroduction.uasset'
-[2019.10.26-03.49.53:555][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.49.53:720][578]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.50.06:814][ 77]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.06:818][ 77]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.07:476][150]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.50.07:497][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.50.07:498][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.50.07:498][150]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:50:07 PM)
-[2019.10.26-03.50.07:498][150]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.50.07:715][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.216473s)
-[2019.10.26-03.50.07:717][150]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.50.07:717][150]LogPlayLevel: PIE: World Init took: (0.001652s)
-[2019.10.26-03.50.07:717][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.218353s)
-[2019.10.26-03.50.07:765][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
-[2019.10.26-03.50.07:780][150]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.50.07:792][150]LogInit: FAudioDevice initialized.
-[2019.10.26-03.50.07:802][150]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.50.07:810][150]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.50.07
-[2019.10.26-03.50.07:810][150]LogWorld: Bringing up level for play took: 0.007374
-[2019.10.26-03.50.07:811][150]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2019.10.26-03.50.07:814][150]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.096
-[2019.10.26-03.50.07:815][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.50.13:145][778]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.50.18:203][357]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.18:208][357]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.21:565][749]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.50.35:196][365]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.35:201][365]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.37:688][656]Cmd: SELECT NONE
-[2019.10.26-03.50.43:561][356]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.50.43:562][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.50.43:562][356]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.50.43:562][356]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.50.43:573][356]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.50.43:573][356]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.50.43:628][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.50.43:634][356]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2019.10.26-03.50.43:685][358]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.10.26-03.50.45:150][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.50.45:323][552]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.50.54:884][681]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.54:889][681]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.50.55:539][755]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.50.55:562][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.50.55:562][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.50.55:562][755]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:50:55 PM)
-[2019.10.26-03.50.55:562][755]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.50.55:716][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154399s)
-[2019.10.26-03.50.55:718][755]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.50.55:718][755]LogPlayLevel: PIE: World Init took: (0.001234s)
-[2019.10.26-03.50.55:718][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.155847s)
-[2019.10.26-03.50.55:770][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
-[2019.10.26-03.50.55:785][755]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.50.55:796][755]LogInit: FAudioDevice initialized.
-[2019.10.26-03.50.55:806][755]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.50.55:814][755]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.50.55
-[2019.10.26-03.50.55:815][755]LogWorld: Bringing up level for play took: 0.008031
-[2019.10.26-03.50.55:815][755]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2019.10.26-03.50.55:817][755]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.1
-[2019.10.26-03.50.55:818][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.51.01:114][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.51.01:114][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.51.01:114][380]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.51.01:115][380]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.51.01:125][380]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.51.01:126][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.51.01:182][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.51.01:230][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
-[2019.10.26-03.51.01:258][381]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.10.26-03.51.02:294][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.51.02:449][517]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.51.14:187][906]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.51.14:191][906]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.51.14:909][988]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.51.14:930][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.51.14:931][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.51.14:931][988]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:51:14 PM)
-[2019.10.26-03.51.14:931][988]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.51.15:081][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150713s)
-[2019.10.26-03.51.15:083][988]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.51.15:083][988]LogPlayLevel: PIE: World Init took: (0.001251s)
-[2019.10.26-03.51.15:083][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.152192s)
-[2019.10.26-03.51.15:132][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
-[2019.10.26-03.51.15:148][988]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.51.15:162][988]LogInit: FAudioDevice initialized.
-[2019.10.26-03.51.15:172][988]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.51.15:180][988]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.51.15
-[2019.10.26-03.51.15:180][988]LogWorld: Bringing up level for play took: 0.007120
-[2019.10.26-03.51.15:180][988]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2019.10.26-03.51.15:183][988]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.535
-[2019.10.26-03.51.15:183][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.51.19:793][529]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981
-[2019.10.26-03.52.01:076][429]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.52.01:080][429]LogSlate: Window 'Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981' being destroyed
-[2019.10.26-03.52.02:282][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
-[2019.10.26-03.52.03:493][565]LogSlate: Window 'Save Content' being destroyed
-[2019.10.26-03.52.03:562][565]LogSavePackage: Moving '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Lobo_Loco_-_03_-_Streetlife_-_SiB6C7842642BB0F637CC9F7A2B8611FED.tmp' to '../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/MyAudio/Lobo_Loco_-_03_-_Streetlife_-_Silentfilm_ID_981.uasset'
-[2019.10.26-03.52.07:834][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.07:834][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.52.07:834][ 75]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.52.07:835][ 75]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.52.07:851][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.52.07:851][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.07:904][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.52.07:911][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
-[2019.10.26-03.52.07:936][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.10.26-03.52.08:858][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.52.08:925][193]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.52.08:947][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.08:948][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.52.08:948][193]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:52:08 PM)
-[2019.10.26-03.52.08:948][193]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.52.09:140][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.192101s)
-[2019.10.26-03.52.09:141][193]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.52.09:141][193]LogPlayLevel: PIE: World Init took: (0.001273s)
-[2019.10.26-03.52.09:141][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.193591s)
-[2019.10.26-03.52.09:191][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
-[2019.10.26-03.52.09:207][193]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.52.09:218][193]LogInit: FAudioDevice initialized.
-[2019.10.26-03.52.09:227][193]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.52.09:234][193]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.52.09
-[2019.10.26-03.52.09:235][193]LogWorld: Bringing up level for play took: 0.007296
-[2019.10.26-03.52.09:235][193]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2019.10.26-03.52.09:238][193]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.48
-[2019.10.26-03.52.09:238][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.13:559][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.13:559][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.52.13:559][703]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.52.13:560][703]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.52.13:569][703]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.52.13:570][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.13:626][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.52.13:632][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
-[2019.10.26-03.52.13:672][705]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.10.26-03.52.14:164][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.52.14:213][770]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.26-03.52.14:235][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.14:235][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.26-03.52.14:235][770]PIE: New page: PIE session: FirstPersonExampleMap (Oct 25, 2019, 7:52:14 PM)
-[2019.10.26-03.52.14:235][770]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.52.14:389][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153425s)
-[2019.10.26-03.52.14:390][770]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.10.26-03.52.14:390][770]LogPlayLevel: PIE: World Init took: (0.001465s)
-[2019.10.26-03.52.14:390][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.155130s)
-[2019.10.26-03.52.14:440][770]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
-[2019.10.26-03.52.14:456][770]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.26-03.52.14:468][770]LogInit: FAudioDevice initialized.
-[2019.10.26-03.52.14:476][770]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.26-03.52.14:483][770]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.10.25-23.52.14
-[2019.10.26-03.52.14:484][770]LogWorld: Bringing up level for play took: 0.007260
-[2019.10.26-03.52.14:484][770]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2019.10.26-03.52.14:487][770]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.769
-[2019.10.26-03.52.14:487][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.19:934][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.19:934][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.52.19:934][416]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.10.26-03.52.19:935][416]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.10.26-03.52.19:946][416]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.26-03.52.19:947][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.10.26-03.52.19:998][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.26-03.52.20:005][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2019.10.26-03.52.20:046][418]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.10.26-03.53.35:987][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.26-03.53.36:090][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
-[2019.10.26-03.53.37:429][617]Cmd: SELECT NONE
-[2019.10.26-03.55.01:790][598]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/MyIntroduction.MyIntroduction
-[2019.10.26-03.55.08:609][400]LogSlate: Window 'MyIntroduction' being destroyed
-[2019.10.26-03.55.08:612][400]LogSlate: Window 'MyIntroduction' being destroyed
-[2019.10.26-03.56.08:143][538]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/MyAudio/EditedFootsteps.EditedFootsteps
-[2019.10.26-03.57.14:863][526]LogSlate: Window 'EditedFootsteps' being destroyed
-[2019.10.26-03.57.14:867][526]LogSlate: Window 'EditedFootsteps' being destroyed
-[2019.10.26-03.57.16:258][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
-[2019.10.26-04.57.04:394][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
-[2019.10.26-05.35.47:276][479]LogUObjectHash: Compacting FUObjectHashTables data took   7.39ms
+[2019.10.26-06.24.05:154][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.26-06.24.05:154][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.26-06.24.05:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.26-06.24.05:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:155][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:160][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:160][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.26-06.24.05:160][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.26-06.24.05:160][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:160][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.26-06.24.05:160][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:160][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.26-06.24.05:160][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.26-06.24.05:160][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.26-06.24.05:161][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.26-06.24.05:162][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.26-06.24.05:162][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.26-06.24.05:162][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.26-06.24.05:207][  0]LogHAL: Display: Platform has ~ 8 GB [8538705920 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.26-06.24.05:207][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.26-06.24.05:207][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.26-06.24.05:207][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.26-06.24.05:208][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Scalability.ini]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.26-06.24.05:209][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.26-06.24.05:266][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.26-06.24.05:267][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.26-06.24.05:267][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Config/Windows/Engine.ini]
+[2019.10.26-06.24.05:267][  0]LogInit: Computer: DESKTOP-NR30UB4
+[2019.10.26-06.24.05:267][  0]LogInit: User: recon
+[2019.10.26-06.24.05:267][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.10.26-06.24.05:267][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.26-06.24.05:267][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.10.26-06.24.05:267][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.26-06.24.05:267][  0]LogMemory: Process Physical Memory: 103.24 MB used, 103.25 MB peak
+[2019.10.26-06.24.05:267][  0]LogMemory: Process Virtual Memory: 100.95 MB used, 100.95 MB peak
+[2019.10.26-06.24.05:267][  0]LogMemory: Physical Memory: 5592.77 MB used,  2550.38 MB free, 8143.14 MB total
+[2019.10.26-06.24.05:267][  0]LogMemory: Virtual Memory: 4701.62 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.10.26-06.24.05:311][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.26-06.24.05:741][  0]LogInit: Using OS detected language (en-US).
+[2019.10.26-06.24.05:741][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.26-06.24.05:742][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.26-06.24.06:669][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.26-06.24.07:032][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.26-06.24.07:033][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.26-06.24.11:976][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.26-06.24.11:976][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.26-06.24.12:072][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 470 Graphics' (Feature Level 11_0)
+[2019.10.26-06.24.12:073][  0]LogD3D11RHI:       4043/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.10.26-06.24.12:087][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.26-06.24.12:087][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.26-06.24.12:087][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.26-06.24.12:100][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.26-06.24.12:100][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2019.10.26-06.24.12:100][  0]LogWindows: EnumDisplayDevices:
+[2019.10.26-06.24.12:101][  0]LogWindows:    0. 'Radeon (TM) RX 470 Graphics' (P:1 D:1)
+[2019.10.26-06.24.12:101][  0]LogWindows:    1. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2019.10.26-06.24.12:101][  0]LogWindows:    2. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2019.10.26-06.24.12:102][  0]LogWindows:    3. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2019.10.26-06.24.12:102][  0]LogWindows:    4. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2019.10.26-06.24.12:103][  0]LogWindows:    5. 'Radeon (TM) RX 470 Graphics' (P:0 D:0)
+[2019.10.26-06.24.12:103][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2019.10.26-06.24.12:103][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 470 Graphics
+[2019.10.26-06.24.12:103][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:22.19.677.257, unified:22.19.677.257)
+[2019.10.26-06.24.12:104][  0]LogD3D11RHI:      Driver Date: 9-22-2017
+[2019.10.26-06.24.12:104][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.10.26-06.24.12:283][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.26-06.24.12:296][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.10.26-06.24.15:705][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.26-06.24.15:737][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.26-06.24.15:757][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.26-06.24.15:777][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.26-06.24.15:828][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.26-06.24.15:856][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.26-06.24.15:874][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.26-06.24.16:009][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.26-06.24.16:034][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.26-06.24.16:152][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.26-06.24.16:153][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.26-06.24.16:180][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.26-06.24.16:288][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.26-06.24.16:288][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.26-06.24.16:324][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.26-06.24.16:324][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.26-06.24.16:344][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.26-06.24.16:359][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.26-06.24.16:383][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.26-06.24.16:434][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.26-06.24.16:512][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.26-06.24.16:512][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.26-06.24.16:512][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.26-06.24.16:592][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.26-06.24.17:288][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Intermediate/Shaders/WorkingDirectory/14892/).
+[2019.10.26-06.24.17:288][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/recon/AppData/Local/Temp/UnrealShaderWorkingDir/F0F9BB944E9A8629975769BA622DC56D/'.
+[2019.10.26-06.24.17:341][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.26-06.24.17:342][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.26-06.24.17:342][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.26-06.24.21:028][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.26-06.24.21:868][  0]LogDerivedDataCache: Loaded boot cache 0.84s 73MB C:/Users/recon/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.26-06.24.21:868][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/recon/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.26-06.24.21:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.26-06.24.21:868][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.26-06.24.21:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.26-06.24.21:868][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.26-06.24.22:042][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.26-06.24.22:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.26-06.24.22:042][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.26-06.24.22:044][  0]LogDerivedDataCache: Using Local data cache path C:/Users/recon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.26-06.24.22:044][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.26-06.24.22:044][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.26-06.24.22:073][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.26-06.24.22:077][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.26-06.24.22:130][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.26-06.24.24:220][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2019.10.26-06.24.24:607][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.26-06.24.25:328][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.26-06.24.25:328][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.26-06.24.25:328][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.26-06.24.25:328][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.26-06.24.25:328][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.26-06.24.25:362][  0]LogNetVersion: Kivett_Escape_Class 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 4099637301)
+[2019.10.26-06.24.27:436][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Intermediate/AssetRegistryCache/2657c409.bin
+[2019.10.26-06.24.27:467][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Intermediate/AssetRegistryCache/8c0e1344.bin
+[2019.10.26-06.24.27:546][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.110640 seconds
+[2019.10.26-06.24.27:557][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.26-06.24.27:557][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.26-06.24.27:557][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.26-06.24.55:312][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.26-06.24.55:397][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.26-06.24.55:904][  0]SourceControl: Source control is disabled
+[2019.10.26-06.24.55:905][  0]SourceControl: Source control is disabled
+[2019.10.26-06.24.55:948][  0]SourceControl: Source control is disabled
+[2019.10.26-06.24.55:956][  0]SourceControl: Source control is disabled
+[2019.10.26-06.24.55:999][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.26-06.24.56:000][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.26-06.24.57:140][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.26-06.24.57:941][  0]LogOcInput: OculusInput pre-init called
+[2019.10.26-06.24.57:990][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.26-06.24.57:990][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.26-06.24.58:397][  0]LogEngine: Initializing Engine...
+[2019.10.26-06.24.58:398][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.26-06.24.58:400][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.26-06.24.59:038][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.26-06.24.59:104][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.26-06.24.59:201][  0]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.26-06.24.59:259][  0]LogInit: FAudioDevice initialized.
+[2019.10.26-06.24.59:259][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.26-06.24.59:689][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/recon/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.26-06.24.59:691][  0]LogInit: Texture streaming: Enabled
+[2019.10.26-06.24.59:852][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.26-06.24.59:852][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.10.26-06.24.59:853][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.10.26-06.25.00:246][  0]LogInit: Transaction tracking system initialized
+[2019.10.26-06.25.00:754][  0]BlueprintLog: New page: Editor Load
+[2019.10.26-06.25.01:846][  0]LocalizationService: Localization service is disabled
+[2019.10.26-06.25.02:825][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.26-06.25.02:827][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.26-06.25.03:448][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/' took 0.01s
+[2019.10.26-06.25.03:448][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.26-06.25.03:448][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.26-06.25.05:707][  0]SourceControl: Source control is disabled
+[2019.10.26-06.25.05:708][  0]Cmd: MAP LOAD FILE="../../../../../../Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.26-06.25.05:708][  0]LightingResults: New page: Lighting Build
+[2019.10.26-06.25.05:736][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.26-06.25.05:736][  0]MapCheck: New page: Map Check
+[2019.10.26-06.25.05:736][  0]LightingResults: New page: Lighting Build
+[2019.10.26-06.25.05:779][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.10.26-06.25.07:365][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.26-06.25.07:421][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.26-06.25.07:631][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.10.26-06.25.07:631][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.26-06.25.07:632][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.372ms to complete.
+[2019.10.26-06.25.07:632][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.925
+[2019.10.26-06.25.07:963][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.26-06.25.07:972][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.26-06.25.07:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.26-06.25.07:989][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.26-06.25.08:100][  0]LogCollectionManager: Loaded 0 collections in 0.003016 seconds
+[2019.10.26-06.25.08:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Saved/Collections/' took 0.00s
+[2019.10.26-06.25.08:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/Developers/recon/Collections/' took 0.00s
+[2019.10.26-06.25.08:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/recon/Documents/Unreal Projects/Kivett_Escape_Class/Content/Collections/' took 0.00s
+[2019.10.26-06.25.08:132][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.10.26-06.25.08:144][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2863 classes and 680 folders.
+[2019.10.26-06.25.08:192][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.26-06.25.09:549][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.26-06.25.09:590][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.10.26-06.25.09:848][  0]LogSlate: Took 0.105303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.26-06.25.09:916][  0]LogSlate: Took 0.065399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.26-06.25.09:975][  0]LogSlate: Took 0.053241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.26-06.25.10:154][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.26-06.25.10:347][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.26-06.25.10:347][  0]LogLoad: (Engine Initialization) Total time: 84.11 seconds
+[2019.10.26-06.25.10:347][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.26-06.25.10:491][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.26-06.25.10:635][  0]LogSlate: Took 0.057603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.26-06.25.11:532][ 11]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.26-06.25.12:701][ 27]LogAssetRegistry: Asset discovery search completed in 48.4816 seconds
+[2019.10.26-06.25.12:705][ 27]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.10.26-06.25.12:705][ 27]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.10.26-06.25.13:990][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.10.26-06.25.14:095][ 31]LogSlate: Window 'Kivett_Escape_Class - Unreal Editor' being destroyed
+[2019.10.26-06.25.14:098][ 31]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.26-06.25.14:208][ 32]Cmd: QUIT_EDITOR
+[2019.10.26-06.25.14:251][ 32]LogExit: Preparing to exit.
+[2019.10.26-06.25.14:423][ 32]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.10.26-06.25.14:423][ 32]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.10.26-06.25.14:436][ 32]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.10.26-06.25.14:441][ 32]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.10.26-06.25.14:442][ 32]LogExit: Editor shut down
+[2019.10.26-06.25.14:442][ 32]LogExit: Transaction tracking system shut down
+[2019.10.26-06.25.14:672][ 32]LogExit: Object subsystem successfully closed.
+[2019.10.26-06.25.14:700][ 32]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module SceneOutliner (666)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module AddContentDialog (664)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module WidgetCarousel (663)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module EditorWidgets (660)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module CollectionManager (658)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
+[2019.10.26-06.25.14:741][ 32]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module BspMode (638)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module OculusMR (630)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module SessionServices (574)
+[2019.10.26-06.25.14:742][ 32]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
+[2019.10.26-06.25.14:743][ 32]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module MergeActors (534)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module XmlParser (522)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module Blutility (520)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
+[2019.10.26-06.25.15:219][ 32]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
+[2019.10.26-06.25.15:220][ 32]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module Layers (496)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module Persona (486)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module Kismet (480)
+[2019.10.26-06.25.15:264][ 32]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module StructViewer (474)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module Toolbox (470)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
+[2019.10.26-06.25.15:265][ 32]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
+[2019.10.26-06.25.15:269][ 32]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2019.10.26-06.25.15:272][ 32]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module BackChannel (372)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2019.10.26-06.25.15:273][ 32]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.10.26-06.25.15:274][ 32]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.10.26-06.25.15:375][ 32]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.10.26-06.25.15:476][ 32]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.10.26-06.25.15:476][ 32]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.10.26-06.25.15:477][ 32]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.10.26-06.25.15:477][ 32]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.10.26-06.25.15:478][ 32]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.10.26-06.25.15:478][ 32]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.10.26-06.25.15:478][ 32]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.10.26-06.25.15:480][ 32]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.10.26-06.25.15:481][ 32]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.10.26-06.25.15:482][ 32]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.10.26-06.25.15:483][ 32]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.10.26-06.25.15:483][ 32]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.10.26-06.25.15:483][ 32]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.10.26-06.25.15:483][ 32]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.10.26-06.25.15:698][ 32]LogDerivedDataCache: Shutdown
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.10.26-06.25.15:698][ 32]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.10.26-06.25.15:699][ 32]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.10.26-06.25.15:699][ 32]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.10.26-06.25.15:699][ 32]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.10.26-06.25.15:699][ 32]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.10.26-06.25.15:699][ 32]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.10.26-06.25.15:700][ 32]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.10.26-06.25.15:700][ 32]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.10.26-06.25.15:700][ 32]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.10.26-06.25.15:700][ 32]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.10.26-06.25.15:708][ 32]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.10.26-06.25.15:709][ 32]LogHMD: Freeing OpenVRDLLHandle.
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.10.26-06.25.15:709][ 32]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.10.26-06.25.15:710][ 32]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.10.26-06.25.15:710][ 32]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.10.26-06.25.15:733][ 32]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.10.26-06.25.15:733][ 32]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.26-06.25.15:733][ 32]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F7D0C17-4551-CA00-F3B6-4BB49006ED68%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=cdabe6774b13a7353e63f7a1d57cec9e%7C2913ae1c9d9e4d7e9c77753c3ab22a9e%7Ca8883b63-2030-4494-ac27-b85ad5490515&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.26-06.25.15:755][ 32]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.10.26-06.25.15:756][ 32]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.10.26-06.25.15:758][ 32]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.10.26-06.25.15:759][ 32]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.10.26-06.25.15:759][ 32]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.10.26-06.25.15:760][ 32]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.26-06.25.15:763][ 32]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.26-06.25.15:763][ 32]LogD3D11RHI: Shutdown
+[2019.10.26-06.25.15:763][ 32]LogD3D11RHI: CleanupD3DDevice
+[2019.10.26-06.25.15:764][ 32]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.26-06.25.15:764][ 32]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.26-06.25.15:764][ 32]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.26-06.25.15:841][ 32]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.26-06.25.15:859][ 32]LogExit: Exiting.
+[2019.10.26-06.25.15:907][ 32]Log file closed, 10/26/19 02:25:15
